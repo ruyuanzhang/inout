@@ -50,7 +50,7 @@ else:
     tk=None
 
 # load stimulus and design
-expDesign = np.load('faceprfdesign2.npz')
+expDesign = np.load('faceprfdesign.npz')
 images = expDesign['images']
 posiCond = expDesign['posiCondList'][mri['runId']]
 imageId = expDesign['imageIdList'][mri['runId']]
